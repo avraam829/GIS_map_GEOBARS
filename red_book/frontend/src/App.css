@@ -1,0 +1,26 @@
+.app-container {
+  display: flex; /* Flexbox для горизонтального расположения */
+  height: 100vh; /* Задаем высоту на весь экран */
+}
+
+.sidebar {
+  width: 25%;
+  padding: 30px; /* Отступы внутри сайдбара */
+  background-color: #f4f4f4;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box; /* Чтобы padding не увеличивал ширину */
+}
+
+.map {
+  flex-grow: 1; /* Карта занимает оставшееся пространство */
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.filters {
+  margin-top: 20px;
+}
